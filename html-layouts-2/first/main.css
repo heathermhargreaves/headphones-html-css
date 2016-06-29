@@ -1,0 +1,62 @@
+
+.main-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-box {
+  height: 200px;
+  width: 30%;
+  background: #ccc;
+}
+
+.top-box:nth-child(odd) {
+  background: black;
+}
+
+.top-box:nth-child(even) {
+  background: gray;
+}
+
+.content {
+  width: 97%;
+  margin: auto;
+  padding: 10px 0 10px 0;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.column-container {
+  display: flex;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.column-left {
+  background: red;
+  width: 33.33%;
+}
+
+.column-right {
+  width: 66.67%;
+  background: blue;
+}
+
+.column-left-bottom {
+  background: blue;
+  width: 66.67%;
+}
+
+.column-right-bottom {
+  width: 33.33%;
+  background: red;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-box {
+  width: 80%;
+  background: darkgray;
+}
